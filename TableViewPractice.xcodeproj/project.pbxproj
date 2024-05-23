@@ -13,6 +13,8 @@
 		D12E3BFE2BFF22CE002B7634 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D12E3BFD2BFF22CE002B7634 /* Base */; };
 		D12E3C002BFF22CF002B7634 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D12E3BFF2BFF22CF002B7634 /* Assets.xcassets */; };
 		D12E3C032BFF22CF002B7634 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D12E3C022BFF22CF002B7634 /* Base */; };
+		D12E3C0B2BFF235C002B7634 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12E3C0A2BFF235C002B7634 /* FirstTableViewController.swift */; };
+		D12E3C0D2BFF2362002B7634 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12E3C0C2BFF2362002B7634 /* SecondTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D12E3BFF2BFF22CF002B7634 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D12E3C022BFF22CF002B7634 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D12E3C042BFF22CF002B7634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D12E3C0A2BFF235C002B7634 /* FirstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
+		D12E3C0C2BFF2362002B7634 /* SecondTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				D12E3BFF2BFF22CF002B7634 /* Assets.xcassets */,
 				D12E3C012BFF22CF002B7634 /* LaunchScreen.storyboard */,
 				D12E3C042BFF22CF002B7634 /* Info.plist */,
+				D12E3C0A2BFF235C002B7634 /* FirstTableViewController.swift */,
+				D12E3C0C2BFF2362002B7634 /* SecondTableViewController.swift */,
 			);
 			path = TableViewPractice;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D12E3C0B2BFF235C002B7634 /* FirstTableViewController.swift in Sources */,
 				D12E3BFB2BFF22CE002B7634 /* ViewController.swift in Sources */,
+				D12E3C0D2BFF2362002B7634 /* SecondTableViewController.swift in Sources */,
 				D12E3BF72BFF22CE002B7634 /* AppDelegate.swift in Sources */,
 				D12E3BF92BFF22CE002B7634 /* SceneDelegate.swift in Sources */,
 			);
@@ -299,6 +307,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +315,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Jo.TableViewPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -326,6 +339,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,9 +347,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Jo.TableViewPractice;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
