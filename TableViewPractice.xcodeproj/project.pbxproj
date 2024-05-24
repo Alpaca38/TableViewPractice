@@ -15,6 +15,9 @@
 		D12E3C032BFF22CF002B7634 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = D12E3C022BFF22CF002B7634 /* Base */; };
 		D12E3C0B2BFF235C002B7634 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12E3C0A2BFF235C002B7634 /* FirstTableViewController.swift */; };
 		D12E3C0D2BFF2362002B7634 /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12E3C0C2BFF2362002B7634 /* SecondTableViewController.swift */; };
+		D12E3C132C005072002B7634 /* Extension_UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12E3C122C005072002B7634 /* Extension_UIViewController.swift */; };
+		D12E3C192C0078F7002B7634 /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12E3C182C0078F7002B7634 /* SecondTableViewCell.swift */; };
+		D12E3C1B2C007B69002B7634 /* Shopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12E3C1A2C007B69002B7634 /* Shopping.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		D12E3C042BFF22CF002B7634 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D12E3C0A2BFF235C002B7634 /* FirstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
 		D12E3C0C2BFF2362002B7634 /* SecondTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
+		D12E3C122C005072002B7634 /* Extension_UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_UIViewController.swift; sourceTree = "<group>"; };
+		D12E3C182C0078F7002B7634 /* SecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
+		D12E3C1A2C007B69002B7634 /* Shopping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 		D12E3BF52BFF22CE002B7634 /* TableViewPractice */ = {
 			isa = PBXGroup;
 			children = (
+				D12E3C1A2C007B69002B7634 /* Shopping.swift */,
 				D12E3BF62BFF22CE002B7634 /* AppDelegate.swift */,
 				D12E3BF82BFF22CE002B7634 /* SceneDelegate.swift */,
 				D12E3BFA2BFF22CE002B7634 /* ViewController.swift */,
@@ -69,6 +76,8 @@
 				D12E3C042BFF22CF002B7634 /* Info.plist */,
 				D12E3C0A2BFF235C002B7634 /* FirstTableViewController.swift */,
 				D12E3C0C2BFF2362002B7634 /* SecondTableViewController.swift */,
+				D12E3C182C0078F7002B7634 /* SecondTableViewCell.swift */,
+				D12E3C122C005072002B7634 /* Extension_UIViewController.swift */,
 			);
 			path = TableViewPractice;
 			sourceTree = "<group>";
@@ -144,10 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D12E3C132C005072002B7634 /* Extension_UIViewController.swift in Sources */,
+				D12E3C1B2C007B69002B7634 /* Shopping.swift in Sources */,
 				D12E3C0B2BFF235C002B7634 /* FirstTableViewController.swift in Sources */,
 				D12E3BFB2BFF22CE002B7634 /* ViewController.swift in Sources */,
 				D12E3C0D2BFF2362002B7634 /* SecondTableViewController.swift in Sources */,
 				D12E3BF72BFF22CE002B7634 /* AppDelegate.swift in Sources */,
+				D12E3C192C0078F7002B7634 /* SecondTableViewCell.swift in Sources */,
 				D12E3BF92BFF22CE002B7634 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
