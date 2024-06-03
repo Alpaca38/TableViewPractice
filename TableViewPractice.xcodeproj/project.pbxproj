@@ -18,6 +18,7 @@
 		D12E3C132C005072002B7634 /* Extension_UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12E3C122C005072002B7634 /* Extension_UIViewController.swift */; };
 		D12E3C192C0078F7002B7634 /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12E3C182C0078F7002B7634 /* SecondTableViewCell.swift */; };
 		D12E3C1B2C007B69002B7634 /* Shopping.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12E3C1A2C007B69002B7634 /* Shopping.swift */; };
+		D1957F042C0D99FB0080E2FF /* SettingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1957F032C0D99FB0080E2FF /* SettingOptions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		D12E3C122C005072002B7634 /* Extension_UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension_UIViewController.swift; sourceTree = "<group>"; };
 		D12E3C182C0078F7002B7634 /* SecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
 		D12E3C1A2C007B69002B7634 /* Shopping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shopping.swift; sourceTree = "<group>"; };
+		D1957F032C0D99FB0080E2FF /* SettingOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingOptions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				D12E3C0C2BFF2362002B7634 /* SecondTableViewController.swift */,
 				D12E3C182C0078F7002B7634 /* SecondTableViewCell.swift */,
 				D12E3C122C005072002B7634 /* Extension_UIViewController.swift */,
+				D1957F032C0D99FB0080E2FF /* SettingOptions.swift */,
 			);
 			path = TableViewPractice;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1957F042C0D99FB0080E2FF /* SettingOptions.swift in Sources */,
 				D12E3C132C005072002B7634 /* Extension_UIViewController.swift in Sources */,
 				D12E3C1B2C007B69002B7634 /* Shopping.swift in Sources */,
 				D12E3C0B2BFF235C002B7634 /* FirstTableViewController.swift in Sources */,
